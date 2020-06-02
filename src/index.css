@@ -1,15 +1,13 @@
 .pageBackground {
     display: flex;
     justify-content: center;
-    background-image: url('./main_app_background.png');
-    height: 100vh;
-    
+    background-image: url('./static/main_app_background.png');    
 }
 
 .quiz-wrapper {
     text-align: center;
     background-color: lightgray;
-    height: 100vh;
+    height: 100%;
     width: 50vw;
     border-radius: 15px;
 }
