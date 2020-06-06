@@ -4,13 +4,13 @@ import AnswerOption from './AnswerOption';
 
 
 const QuestionContainer = (props) => {
-    console.log(props.answers)
 
     return(
         <div className="QuestionContainer" style={QuestionContainerStyle}>
             <QuestionPrompt question={props.question}/>
             {props.answers.map(answer => 
-                <AnswerOption answer={answer} />
+                <AnswerOption answer={answer} selected={props.selected}
+                />
                 )}
             
         </div>       

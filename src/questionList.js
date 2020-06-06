@@ -60,7 +60,7 @@ const hpQuestion = [
         slythAnswer: "Potions",
         huffAnswer:'Herbology and the Study of Plants',
         ravAnswer:'Charms',
-        questionId: '1456894',
+        questionId: '1456889',
     },
     {
         question:"What is your favorie Bertie Bott's Bean flavor?", 
@@ -69,7 +69,7 @@ const hpQuestion = [
         slythAnswer: "Vomit",
         huffAnswer:'Grass',
         ravAnswer:'Dirt',
-        questionId: '1456896',
+        questionId: '1456888',
     },
 ];
     
